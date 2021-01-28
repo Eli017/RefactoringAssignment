@@ -13,20 +13,4 @@ public class InsuranceCalculator {
             return insuranceStrategyVeryHigh.calculateInsuranceVeryHigh(income);
         }
     }
-
-    public double calculateInsuranceVeryHigh(double income) {
-        return insuranceStrategyVeryHigh.calculateInsuranceVeryHigh(income);
-    }
-
-    private int getConstant() {
-        return insuranceStrategyVeryHigh.getConstant();
-    }
-
-    private double getWeight() {
-        return insuranceStrategyVeryHigh.getWeight();
-    }
-
-    public int getAdjustment() {
-        return insuranceStrategyVeryHigh.getAdjustment();
-    }
 }
